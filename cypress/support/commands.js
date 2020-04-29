@@ -37,3 +37,7 @@
 //       log.snapshot().end()
 //     })
 // })
+
+Cypress.Commands.add("fruit", (name) => { 
+    return name;
+})
